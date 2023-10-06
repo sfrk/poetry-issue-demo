@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-test-5"
+version = "0.1.0"
+description = ""
+authors = ["Sebastian Frelle Koch <sfrk@kamstrup.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^0.19.7"
+pyarrow = "^13.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
